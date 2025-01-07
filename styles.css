@@ -1,0 +1,32 @@
+header{
+    text-align: center;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+p{
+    color:white;
+    text-align: center;
+}
+button{
+    align-items: center;
+}
+
+.carousel-indicators {
+    bottom: -600px; /* Move indicators 20px lower */
+    position: absolute; /* Ensure they stay positioned relative to the carousel */
+}
+
+.carousel-caption-bottom {
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Optional: add a semi-transparent background */
+    color: white;
+    padding: 30px;
+    margin-top: 15px; /* Space between image and caption */
+}
+
+footer{
+    text-align: center;
+}

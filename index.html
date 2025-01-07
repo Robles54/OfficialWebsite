@@ -2,243 +2,173 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous" defer></script>
-    <title>Christopher's Website</title>
+    <title>Chris' Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <style>
-  a:link {
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-  }
+    body {
+        background-color: rgb(0, 187, 255);
+    }
+    a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    h3 {
+        text-align: center;
+        color:rgb(255, 255, 255);
+    }
+    .carousel-indicators {
+    bottom: -10px; /* Move indicators 20px lower */
+    position: absolute; /* Ensure they stay positioned relative to the carousel */
+    }
+    a:visited {
+        color: blue;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+    }
 </style>
 <body>
     <div class="alert alert-danger" role="alert">
-        Update from 04/03/2023 at 6:57:00: This website is not complete yet! This website was created using Bootstrap which helps develop responsive mobile-first websites. I have not made the website visually appealing for laptop view yet. If you fall into any functionality issues, you can report it <a href="https://github.com/ChristopherASC22/OfficialWebsite/issues" target="_blank">here.</a>
+        Updated as of from 01/05/2025 at 8:28:00: This website remains being a work in progress! For any Up-To-Date information regarding my projects, please refer to my GitHub page or don't hesitate to contact me on LinkedIn. If you find any functionality issues, you may report it <a href="https://github.com/Robles54/OfficialWebsite/issues" target="_blank">here.</a>
       </div>
-
-    <ul class="nav nav-pills nav-fill">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="https://christopherroblescoding2022.netlify.app/" target="_blank">A Photo Gallary</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="images/CHRISTOPHER ROBLES - SEO Scholars - RESUME (3).pdf" target="_blank">My Resume</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.linkedin.com/in/christopher-robles-b7587223a/" target="_blank">My LinkedIn</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="https://github.com/ChristopherASC22" target="_blank">My GitHub</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://christopherasc22.github.io/Photo_Gallery/" target="_blank">Updated Photo Gallary</a>
-        </li>
-      </ul>
-
-    <div class="container-fluid text-center">
-        <div class="row bg-primary">
-            <div class="col-12 border">
-                <h1>Christopher Robles</h1>
-            </div>
-        </div>
-        <div class="row bg-secondary">
-            <div class="col-lg-3 border">
-                <img src="images/image.png" class="img-fluid">
-            </div>
-            <div class="col-lg-6 border">
-                <p style="color: blue; background-color: white;">Hi! I'm Christopher Robles, currenly a senior from Digital Arts and Cinema Technology High School in Brooklyn, New York. During the Summer of 2022 I participated in <a href="https://allstarcode.org/" target="_blank">All Star Code</a>. Since Febuary 2020 I've been participating in the program <a href="https://www.seo-usa.org/scholars/" target="_blank">SEO Scholars</a>. My expected High School graduation is in June of 2023 with the class rank of 23.</p>
-            </div>
-            <div class="row bg-primary">
-                <div class="col-12 border">
-                    <h1>Hobbies and Past Times</h1>
-                </div>
-            </div>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="images/IMG_4315.jpg" class="d-block w-100" alt="Photo Taken from Battery Park City, NYC">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/IMG_3926.jpg" class="d-block w-100" alt="Photo Taken from Bush Terminal Park, Brooklyn">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/IMG_2699.jpg" class="d-block w-100" alt="Photo Taken from Lower East Side, NYC">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class = "container-fluid">
+            <a class = "navbar-brand" href = "https://www.linkedin.com/in/christopher-nyc/">Christopher Robles</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="images/Christopher Robles_Resume_Final.pdf" target="_blank">Resume</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://robles54.github.io/Photo_Gallery/index.html" target="_blank">Photo Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">About Me</a>
+                  </li>
+                </ul>
               </div>
-        
-            <div class="row bg-info">
-                <div class="col-lg-8 border">
-                    <p>I'm a person who likes to do city exploration and just enjoy what life throws at me. Some of my hobbies include playing video games, Front-end coding, and doing photography.</p>
-                </div>
+        </div>
+      </nav>
+
+    <header>
+        <h1>Christopher Robles</h1>
+    </header>
+    <main>
+        <br>
+
+        <div id ="carouselExampleCaptions" class="carousel slide">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
 
-            <div class="row bg-primary">
-                <div class="col-12 border">
-                    <h1>My Career Interest</h1>
+            <!-- Wrapper for slides -->
+             <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/github.svg" class="d-block w-100" alt="Photo Gallary" style="width: 200px; height: 200px;">
+                    <div class="carousel-caption-bottom">
+                        <h3>Photo Gallery Project</h3>
+                        <p>This is an independent project that I completed to show case one of my hobbies, photography! This project was created in 2023 using HTML and the Bootstrap library.</p>
+                        <button type = "button" class = "btn btn-primary btn-lg" onclick="window.open('https://github.com/Robles54/Photo_Gallery', '_blank')">Project Repository</button>
+                        <button type = "button" class = "btn btn-primary btn-lg" onclick="window.open('https://robles54.github.io/Photo_Gallery/', '_blank')">Project Website</button>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="images/github.svg" class="d-block w-100" alt="Store Application" style="width: 200px; height: 200px;">
+                    <div class="carousel-caption-bottom">
+                        <h3>Store Application Project</h3>
+                        <p>This was a project that I completed as part of my coursework for the Fall 2024 semester of my Sophomore year at Hobart and William Smith Colleges. This project was created using Java FX.</p>
+                        <button type = "button" class = "btn btn-primary btn-lg" onclick="window.open('https://github.com/Robles54/Project5', '_blank')">Project Repository</button>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/github.svg" class="d-block w-100" alt="Library Finder" style="width: 200px; height: 200px;">
+                    <div class="carousel-caption-bottom">
+                        <h3>Library Finder Project</h3>
+                        <p>This was an independent project that I completed to further improve my skills in HTML and CSS. Furthermore this website also marked my attempt to use a Google Map API key as well. This website was created within the span of 2022 - 2023 using HTML, CSS, and JavaScript</p>
+                        <button type = "button" class = "btn btn-primary btn-lg" onclick="window.open('https://github.com/Robles54/Library-Finder', '_blank')">Project Repository</button>
+                        <button type = "button" class = "btn btn-primary btn-lg" onclick="window.open('https://robles54.github.io/Library-Finder/', '_blank')">Project Website</button>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/github.svg" class="d-block w-100" alt="ORE Project" style="width: 200px; height: 200px;">
+                    <div class="carousel-caption-bottom">
+                        <h3>ORE Project</h3>
+                        <p>This was a project that I completed as part of my coursework for the Spring 2024 semester of my Freshman year at Hobart and William Smith Colleges. This project was created using Python and the Django library.</p>
+                        <button type = "button" class = "btn btn-primary btn-lg" onclick="window.open('https://github.com/Robles54/ORE', '_blank')">Project Repository</button>
+                    </div>
                 </div>
             </div>
+        </div>
 
-            <div class="col-lg-3 border">
-                <img src="images/Library_Finder_Code.jpeg" class="img-fluid">
-            </div>
+        <!-- Left and right controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 
-            <div class="row bg-info">
-                <div class="col-lg-8 border">
-                    <p>I intend to major in Computer Science and do Software Engineering or Web Development</p>
+        <br>
+
+        <h3>Links to my socials!</h3>
+        <br>
+        <div class="container text_center">
+            <div class = "row">
+                <div class = "col">
+                <a href="https://www.linkedin.com/in/christopher-nyc/" target="_blank">
+                    <img src="images/linkedin.png" alt="LinkedIn" style="width: 100px; height: 100px;">
+                </a>
+                </div>
+                <div class = "col">
+                <a href="https://github.com/Robles54" target="_blank">
+                    <img src="images/github.svg" alt="GitHub" style="width: 100px; height: 100px;">
+                </a>
+                </div>
+                <div class = "col">
+                <a href="https://www.instagram.com/its.chris101" target="_blank">
+                    <img src="images/instagram.png" alt="Instagram" style="width: 100px; height: 100px;">
+                </a>
+                </div>
+                <div class="col">
+                <a href="mailto:christopher.robles@hws.edu" target="_blank">
+                    <img src="images/email.webp" alt="Email" style="width: 100px; height: 100px;">
+                </a>
                 </div>
             </div>
         </div>
 
-    <div class="row bg-primary">
-      <div class="col-12 border">
-        <h1>My Projects</h1>
-      </div>
-
-      <div class="card mb-3">
-        <img src="images/Library_Finder_Capture.jpeg" class="card-img-top" alt="Screenshot of Library Finder">
-        <div class="card-body">
-          <h5 class="card-title">Library Finder</h5>
-          <p class="card-text">Library Finder is a project I did during the summer with All Star Code. Library Finder was created to tackle the lack of literacy in local communities.</p>
-          <p class="card-text"><small class="text-muted">Last updated on November 3, 2022</small></p>
-          <a href="https://christopherasc22.github.io/Library-Finder/" class="btn btn-primary">Visit Library Finder!</a>
-        </div>
-      </div>
-      <div class="card mb-3">
-        <img src="images/VR_Capture.jpeg" class="card-img-top" alt="Screenshot of Virtual Reality">
-        <div class="card-body">
-          <h5 class="card-title">Virtual Reality</h5>
-          <p class="card-text">Virtual Reality is a private project that I created using HTML and JavaScript. <strong>*This project may create unintentional lag on low-end devices*</strong></p>
-          <p class="card-text"><small class="text-muted">Last updated Febuary 5, 2023</small></p>
-          <a href="https://christopherasc22.github.io/Virtual_Reality/" class="btn btn-primary">Visit Virtual Reality!</a>
-        </div>
-      </div>
-      <div class="card mb-3">
-        <div class="card-body">
-          <h5 class="card-title">Machine Learning</h5>
-          <p class="card-text">Machine Learning is a private "Code Along" that I completed during my private time. The program uses HTML and JavaScript and the machine detects the person eyes and nose. <strong>*This project requires the use of a camera to detect eyes and nose*</strong></strong></p>
-          <p class="card-text"><small class="text-muted">Last updated on Febuary 2, 2023</small></p>
-          <a href="https://christopherasc22.github.io/MachineLearning/" class="btn btn-primary">Visit Machine Learning!</a>
-        </div>
-      </div>
-      <div class="card mb-3">
-        <img src="images/Tone_Capture.jpeg" class="card-img-top" alt="Screenshot of Tones">
-        <div class="card-body">
-          <h5 class="card-title">Tones</h5>
-          <p class="card-text">Tones is a project that I completed using HTML and JavaScript during my time at All Star Code. During this project I explored how to use Audio files in JavaScript to create a beat machine.</p>
-          <p class="card-text"><small class="text-muted">Last updated November 13, 2022</small></p>
-          <a href="https://christopherasc22.github.io/Tones/" class="btn btn-primary">Visit Tones!</a>
-        </div>
-      </div>
-      <div class="card mb-3">
-        <img src="images/Red_Green_Light_Capture.jpeg" class="card-img-top" alt="Screenshot of Red Light Green Light">
-        <div class="card-body">
-          <h5 class="card-title">Red Light Green Light</h5>
-          <p class="card-text">Red Light Green Light is a game that I helped create using HTML and JavaScript during my time at All Star Code. For this project I tasked with creating a game with a group of fellow classmates. Red Light Green Light was heavily inspired by Squid Game.</p>
-          <p class="card-text"><small class="text-muted">Last updated August 20, 2022</small></p>
-          <a href="https://christopherasc22.github.io/Red-Light-Green-Light/" class="btn btn-primary">Visit Red Light Green Light</a>
-        </div>
-      </div>
-      <div class="card mb-3">
-        <img src="images/Python_Animation_Capture.jpeg" class="card-img-top" alt="Screenshot of My Python Animation">
-        <div class="card-body">
-          <h5 class="card-title">Python Animation</h5>
-          <p class="card-text">I created this Python Animation during my Junior Year in a Computer Science class. I used the website Codeskulptor to complete this project and as a method to save this code.</p>
-          <p class="card-text"><small class="text-muted">Last updated May 13, 2022</small></p>
-          <a href="https://py3.codeskulptor.org/#user307_ZZeb4iVtsycvL0c.py" class="btn btn-primary">Visit My Python Animation!</a>
-        </div>
-      </div>
-      <div class="card mb-3">
-        <div class="card-body">
-          <h5 class="card-title">Music Player Version 1</h5>
-          <p class="card-text">This is personal project that I have created in an attempt to make a music player. It is very unplolished and is still in development.</p>
-          <p class="card-text"><small class="text-muted">Last updated April 21, 2023</small></p>
-          <a href="https://christopherasc22.github.io/Music-Player-Version1/" class="btn btn-primary">Visit my Music Player!</a>
-        </div>
-      </div>
-      <div class="card mb-3">
-        <div class="card-body">
-          <h5 class="card-title">Music Player Version 2</h5>
-          <p class="card-text">This is personal project that I have created in an attempt to make a music player. It is very unplolished and is still in development. This is version 2 which is strictly another layout with "Previous" and "Next" functionality.</p>
-          <p class="card-text"><small class="text-muted">Last updated April 21, 2023</small></p>
-          <a href="https://christopherasc22.github.io/Music-Player-Version2/" class="btn btn-primary">Visit my Music Player!</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="row bg-primary">
-        <div class="col-12 border">
-            <h1>My Skills</h1>
-        </div>
-    
-        
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Technology Skills
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Intermediate in Microsoft 360 Applications (Word, Excel, Powerpoint, & Outlook), Intermediate in Google Suite/Workplace Applications (Google Docs, Google Slides, & Google Sheets), Intermediate in HTML, Intermediate in Python, Intermediate in Cascading Style Sheets (CSS), Intermediate in P5, Beginner in JavaScript, Beginner in React, & Beginner in Java
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Interpersonal Skills
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Team Leadership, Communication, Child Welfare, Project Management, and Social Media
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Languages
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Fluent in English, Fluent in Spanish, Basic Understanding in French, & Basic Understanding in American Sign Language.
-                </div>
-              </div>
-            </div>
-          </div>
-        
-            <footer>©Christopher Robles 2023</footer>
-        </div>
-    </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Christopher Robles</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>
